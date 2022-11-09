@@ -1,2 +1,16 @@
 Databases: Modeling and Theory
 https://learning.edx.org/course/course-v1:StanfordOnline+SOE.YDB-MDL_THEORY0001+2T2020/home
+
+- Intro to relational model
+  schema
+  tuple
+  relation - table
+  attribute (type) - column
+  key
+
+  null value
+
+
+- Relational algebra
+-- Core: relation, sigma, production, cross join, union, difference, rename
+-- Abbrev.: natural join, theta join, intersection
