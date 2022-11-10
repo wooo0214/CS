@@ -1,11 +1,23 @@
 https://www.coursera.org/learn/algorithms-divide-conquer/lecture/8vama/about-the-course
 
-integer multiplication
+- integer multiplication
 
-x = a * 10^(n/2) + b, 
-y = c * 10^(n/2) + d
+    x = a * 10^(n/2) + b, 
+    y = c * 10^(n/2) + d
 
-x*y = ac*10^n + (ad+bc)10^(n/2) + bd
+    x*y = ac*10^n + (ad+bc)10^(n/2) + bd
 
-  for example: x = 1234, y = 5678
-              a = 12, b = 34, c = 56, d = 78
+-- Karatsuba
+    
+  for example: 
+  x = 1234, 
+  y = 5678
+  set a = 12, b = 34, c = 56, d = 78
+  
+  step 1: ac = 12 * 56 = 672
+  step 2: bd = 34 * 78 = 2652
+  step 3: (a+b)(c+d) = ac + ad + bc + bd = 6164
+  step 4: 3 - 2 - 1 = 6164 - 2652 - 672 = 2840
+  
+  thus, x * y = 672 * 10^4 + 2840 * 10^2 + 2652 = 7,006,652
+  
