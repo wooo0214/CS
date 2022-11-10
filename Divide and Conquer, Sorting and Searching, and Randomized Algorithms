@@ -1,0 +1,6 @@
+https://www.coursera.org/learn/algorithms-divide-conquer/lecture/8vama/about-the-course
+
+integer multiplication
+x*y = ac*10^n + (ab+cd)10^(n/2) + bd
+  for example: x = 1234, y = 5678
+              a = 12, b = 34, c = 56, d = 78
