@@ -1,5 +1,8 @@
 https://www.coursera.org/learn/algorithms-divide-conquer/lecture/8vama/about-the-course
 
+-------------------------------------
+INTRO
+
 - integer multiplication
 
     x = a * 10^(n/2) + b, 
@@ -21,3 +24,11 @@ https://www.coursera.org/learn/algorithms-divide-conquer/lecture/8vama/about-the
   
   thus, x * y = 672 * 10^4 + 2840 * 10^2 + 2652 = 7,006,652
   
+- Sorting 
+(* write a programme to do so)
+    Merge Sort
+    
+    claim and proof
+    
+    guiding principles for analysis-of algorithms
+        a fast algorithm --> we're gonna pursue algorithms whose worst case running time grows slowly as a function of the input size.
