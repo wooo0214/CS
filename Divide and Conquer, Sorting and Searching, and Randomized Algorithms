@@ -11,7 +11,8 @@ INTRO
     x*y = ac*10^n + (ad+bc)10^(n/2) + bd
 
 -- Karatsuba
-    
+// https://www.geeksforgeeks.org/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/
+
   for example: 
   x = 1234, 
   y = 5678
@@ -32,3 +33,11 @@ INTRO
     
     guiding principles for analysis-of algorithms
         a fast algorithm --> we're gonna pursue algorithms whose worst case running time grows slowly as a function of the input size.
+        
+ --------------------
+ 
+ Asymptotic analysis
+ - big Oh notation
+ // https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/
+ - big omega notation
+ - big theta notation
